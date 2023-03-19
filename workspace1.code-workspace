@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\programing folder"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "front end",
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"new": "cpp",
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"forward_list": "cpp",
+			"list": "cpp",
+			"string": "cpp",
+			"vector": "cpp"
+		}
+	}
+}

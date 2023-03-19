@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   <style>
+    *{
+    margin: 0; padding: 0; box-sizing: border-box;
+   }
+   body{
+       height: 100vh;
+       display: grid;
+       place-items: center;
+      background: blueviolet;
+       place-content: center;
+       /* justify-content: center; */
+   }
+   a{  
+       padding: 12px 16px;
+       /* border: 2px solid blue; */
+       border-radius: 30px;
+       color: whitesmoke;
+       background-color: cornflowerblue ;
+       text-decoration: none;
+       position: relative;
+       box-shadow: 1px 5px 10px black;
+
+   }
+   a::before{
+       content: ""; 
+         /* content likhna must he */
+    position: absolute;
+       top:0;
+       right: 0%;
+       background-color :cornflowerblue;
+       border-radius: 30px;
+       height: 100%;
+       width: 100%;
+       z-index: -1;
+       transition: .3s;
+   }
+
+ a:hover::before{
+    transform: scaleX(1.2) scaleY(1.4);
+                  opacity :0;
+ }
+ a:hover{
+    box-shadow: 1px 7px 10px black;
+ }
+ a:active{
+      transform: translateY(-10px);
+      box-shadow: 1px 10px 10px black;
+ }
+ 
+
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="">click here</a>
+    
+</body>
+</html>
